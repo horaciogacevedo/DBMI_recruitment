@@ -1,0 +1,212 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.15)  4 MAR 2022 04:16
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**fig_stat_reg.tex
+(./fig_stat_reg.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+(/usr/local/texlive/2021/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2018/03/26 v1.3a Class to compile TeX sub-files stan
+dalone
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count182
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count183
+\c@sapage=\count184
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2018/03/26 v1.3a Default configuration file for 'standalon
+e' class
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+\sa@box=\box50
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count193
+\calc@Bcount=\count194
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count195
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip52
+\subfigcapskip=\skip53
+\subfigcaptopadj=\dimen141
+\subfigbottomskip=\skip54
+\subfigcapmargin=\dimen142
+\subfiglabelskip=\skip55
+\c@subfigure=\count196
+\c@lofdepth=\count197
+\c@subtable=\count198
+\c@lotdepth=\count199
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2021/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip56
+\subfig@bottom=\skip57
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/anyfontsize/anyfontsize.sty
+Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
+\l__pdf_internal_box=\box51
+)
+(./fig_stat_reg.aux)
+\openout1 = `fig_stat_reg.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count267
+\scratchdimen=\dimen145
+\scratchbox=\box52
+\nofMPsegments=\count268
+\nofMParguments=\count269
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count270
+\MPscratchDim=\dimen146
+\MPnumerator=\count271
+\makeMPintoPDFobject=\count272
+\everyMPtoPDFconversion=\toks19
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(./fig_reg_vs_model.pdf_tex
+<fig_reg_vs_model.pdf, id=1, page=1, 861.0402pt x 374.64352pt>
+File: fig_reg_vs_model.pdf Graphic file (type pdf)
+<use fig_reg_vs_model.pdf, page 1>
+Package pdftex.def Info: fig_reg_vs_model.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 433.62pt x 188.67041pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 57.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 57.
+) [1
+
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig_r
+eg_vs_model.pdf>] (./fig_stat_reg.aux) ) 
+Here is how much of TeX's memory you used:
+ 2460 strings out of 479723
+ 37345 string characters out of 5879241
+ 334015 words of memory out of 5000000
+ 20348 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 359 hyphenation exceptions out of 8191
+ 57i,13n,71p,265b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on fig_stat_reg.pdf (1 page, 398558 bytes).
+PDF statistics:
+ 39 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
