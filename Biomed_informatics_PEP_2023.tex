@@ -184,11 +184,18 @@
 	
 	In Supervised Learning, the training data you feed the algorithm includes the desired solutions (called \textbf{labels}).
 	
-	A typical supervised learning task is classification. 
+\begin{itemize}
+	\item \textbf{Classification}. Algorithm is trained with samples along with their class, and we select parameters that discerns best the labels.
+	\item \textbf{Regression}. Algorithm is trained and predict a target numeric value given a set of features (covariates or predictors).
+\end{itemize}
+
+Depending on the data set or problem, we divide our sample in three classes:
+\begin{itemize}
+	\item Training set. A subset in which the algorithm will fit the best model.
+	\item Testing set. A subset in which our measures of performance will be used.
+	\item Validation set. Ideally, and independent set that will see how our model performs in not-previously seen data.
+\end{itemize}
 	
-	The algorithm is trained with samples along with their class and the best algorithm that discerns best the labels would be used.
-	
-	Another typical task is to predict a target numeric value given a set of features called predictors. We normally perform this taks with (linear or multilinear) regression.
 
 \end{frame}
 
@@ -440,9 +447,9 @@ Random forest (boosting/bagging) are very powerful methodologies that compete wi
 
 \section{Deep Learning}
 
-\begin{frame}{The perceptron}
+\begin{frame}{In the beginning... }
 	
-	In 1958 Frank Rosenblatt proposed the perceptron which is a more general computational model. The essential innovation was the introduction of numeral weights and a special interconnection pattern. In the original Rosenblatt model the computing units are threshold elements and the connectivity is determined stochastically. Learning takes place by adapting the weights of the network with a numerical algorithm. The so-called classical perceptron is depicted below
+	In 1958 Frank Rosenblatt proposed the \textbf{perceptron} which is a more general computational model. The essential innovation was the introduction of numeral weights and a special interconnection pattern. In the original Rosenblatt model the computing units are threshold elements and the connectivity is determined stochastically. Learning takes place by adapting the weights of the network with a numerical algorithm. The so-called classical perceptron is depicted below
 	
 			\begin{figure}[h]
 		\centering
@@ -493,15 +500,44 @@ Deep  learning is only possible because of the advances in computer power (GPUs 
 	
 \end{frame}
 
+\begin{frame}{Deep Learning Methods}
+Every DL method relies on a specific design (architecture) and purpose
+	\begin{figure}[h]
+		\centering
+		\includegraphics{Figures/DLalgorithms.png}
+	\end{figure}	
+\end{frame}
+
+	\begin{frame}{Understanding, Interpreting, Explaining}
+	\begin{itemize}
+		\item Understanding a model $\Rightarrow$ characterizing a model’s behavior without  elucidating its internal mechanisms
+		\item Interpreting a model $\Rightarrow$ rendering the algorithms decision-making process in terms a human expert can comprehend
+		\item Explaining a model $\Rightarrow$ defining the collection of features (usually in the input) that are most significant in producing the algorithm’s output
+		
+	\end{itemize}
+Holzinger et al. arXiv:1712.09923 (2017). 
+	
+\end{frame}
+
+\begin{frame}{Visual Explainability in CNN}
+
+	\begin{figure}[h]
+	\centering
+	\small{\includegraphics{Figures/explaincnn.png}}
+\end{figure}	
+
+\end{frame}
 \begin{frame}{Deep Learning pitfalls}
 	Applications of deep learning and architectures is abundant, and results really impressive. 
 	However, there are still some fundamental theoretical problems that have not been solved.
 	For instance the \textbf{Black box problem} in which is not clear how the deep neural network makes decisions and how can it be modified.  
 \end{frame}
 
-\section{My Research}	
 
-\begin{frame}{Cancer Imaging Archive}
+
+\section{TCIA}	
+
+\begin{frame}{The Cancer Imaging Archive}
 	UAMS hosts the Cancer Imaging Archive
 	\begin{figure}[h]
 		\centering
@@ -511,162 +547,35 @@ Deep  learning is only possible because of the advances in computer power (GPUs 
 	
 \end{frame}
 
-\begin{frame}{Imaging Informatics}
-	In medical imaging, AI aims to enhance outcomes, quality and efficiency
-	while maintaining ethical and regulatory requirements
-	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[scale=0.45]{Figures/imaging_informatics.png}
-		%\caption{Fig 15: CORD-19 challenge}
-	\end{figure}
-	
-\end{frame}
 
-	
-	\begin{frame}{Where does Statistics/Biostatistics fit?}
-		
-		{\bf Statistical machine learning} is one of the driven forces for Biomedical Informatics Research. 
-		
-		\begin{itemize}
-			\item Random Forest
-			\item Lasso and Ridge Regression
-			\item Support Vector Machines
-			\item Clustering Algorithms
-			\item Bayesian modeling
-		\end{itemize}
-	\end{frame}
-	
-	\begin{frame}{Algorithm Development}
-		In Genomics, one of the first taks is alignment of reads (small pieces of
-		DNA from samples) to the reference genome (transcriptome).
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/alignment.png}
-			\caption{Fig 9: Alignment of reads to Genome/Transcriptome}
-		\end{figure}	
-	\end{frame}
-	
-	
-	\begin{frame}{Alignment Problem}
-		There are algorithms to find what is the best “matched” configurations and
-		also determine what are the possible variants.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/alignment_problem.png}
-			%	\caption{Fig 9: Alignment of reads to Genome/Transcriptome}
-		\end{figure}	
-		
-	\end{frame}
-	
-	
-	\begin{frame}{Pipeline Development}
-		
-		Since software implementations differ (inputs/outputs)  and newly developed software keeps appearing, there is a need to keep up to date solutions.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/pipeline.png}
-			\caption{Fig 12: Broad Institute Best Practices (old)}
-		\end{figure}
-		
-	\end{frame}
-	
-	\begin{frame}{Cloud computing solutions for Genomics}
-		Google, Amazon and other cloud providers have already proposed platforms
-		for genomics data that depends heavily on containers (Docker or
-		Kubernetes) and workflow management systems (e.g., Cromwell)
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/google.png}
-			\caption{Fig 13: Google Cloud Arquitecture}
-		\end{figure}
-		
-	\end{frame}
-	\begin{frame}{Data Mining}
-		If you are interested in bioinformatics for Cancer Research
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/pancancer.png}
-			\caption{Fig 14: Pan-Cancer Consortium}
-		\end{figure}
-		
-	\end{frame}
-	\begin{frame}{Machine Learning}
-		There is current research in methods for current events
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/covid.png}
-			\caption{Fig 15: CORD-19 challenge}
-		\end{figure}
-	\end{frame}
-	
-	\begin{frame}{Research in Clinical Informatics}
-		As an example of research in clinical informatics, Dr. Ahmad Baghal has
-		created the UAMS Cohort Estimation Tool which is a web-based front end
-		to discover patient cohorts during the early stages of research to obtain
-		counts of patients based on inclusion and/or exclusion criteria.
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/baghal.png}
-			%\caption{Fig 15: CORD-19 challenge}
-		\end{figure}
-	\end{frame}
+\section{Imaging Research}
 	
 
-	
-	\begin{frame}{Multiomics for cancer research }
-		National Cancer Institute’s Clinical Proteomic Tumor Analysis Consortium
-		(CPTAC) has collected data (genomics and proteomics) and recently linked
-		to the imaging data
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/multiomics.png}
-			%\caption{Fig 15: CORD-19 challenge}
-		\end{figure}
-	\end{frame}
-	
-	\begin{frame}{What skills do I need?}
-		BMI is highly interdisciplinary 
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/venn.png}
-			\caption{Scientific Areas in BMI}
-		\end{figure}
-		
-	\end{frame}
-	
-	
-	\begin{frame}{What computer language do I need?}
-		It really depends on the area that you want to specialize and your
-		background. At DBMI, all our students must acquire certain competency in
-		Python
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/languages.png}
-			\caption{Computer/Scripting Languages}
-		\end{figure}
-		
-	\end{frame}
 	
 	\begin{frame}{What do I do in DBMI?}
 		I have research projects in:
 		\begin{itemize}
-			\item Imaging analysis
-			\item Deep Learning in imaging
-			\item Cancer genomics/imaging data integration
-			\item Limb Development and Bone homeostasis
-			\item Genomics of rare diseases
 			\item Statistical Machine Learning
+			\item Functional and Elastic Shape Analysis
+			\item Deep Learning in imaging
+			\item Neuro-imaging			
+			\item Cancer genomics/imaging data integration
+			\item Limb Development
 		\end{itemize}
 		
 	\end{frame}
+
+\begin{frame}{Imaging Research}
 	
-	\begin{frame}{Research Collaborations}
-		A Bioinformatician is a key research partner in molecular biology
+	\begin{figure}[h]
+		\centering
+		\includegraphics{Figures/hgresearch.png}
+		%\caption{Computer/Scripting Languages}
+	\end{figure}
+	
+\end{frame}
+	\begin{frame}{Bioinformatics }
+		
 		\begin{figure}[h]
 			\centering
 			\includegraphics[scale=0.45]{Figures/analyz.png}
@@ -676,34 +585,30 @@ Deep  learning is only possible because of the advances in computer power (GPUs 
 		
 	\end{frame}
 	
-	\begin{frame}{DBMI graduate program}
-		
-		\begin{itemize}
-			\item Graduate Certificate -15 credits
-			\item Master of Science - 36 credits
-			\item Doctor of Philosophy - 55 credits (minimum)
-		\end{itemize}
-		
-		
-		\begin{center}
-			\textbf{ DEADLINE  for Fall 2022  is April 1st} \\
-			\textbf{Flexible \& Distance Learning Options Available for Working Professionals!}
+\section{Final pitch for collaborating with DBMI}
+\begin{frame}{DBMI is highly interdisciplinary}
 
-		\end{center}
-		Contact:
-		
-		
-		Crystin Mullins cmullins@uams.edu
-		
-		Horacio Gomez-Acevedo gomezacevedohoracio@uams.edu
-		
-				\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.45]{Figures/qr_code_new.png}
-			%\caption{Computer/Scripting Languages}
-		\end{figure}
-		
-	\end{frame}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.45]{Figures/venn.png}
+		%\caption{Scientific Areas in BMI}
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{What computer language do I need?}
+	It really depends on the area that you want to specialize and your
+	background. At DBMI, all our students must acquire certain competency in
+	Python
+	\begin{figure}[h]
+		\centering
+		\includegraphics[scale=0.45]{Figures/languages.png}
+		\caption{Computer/Scripting Languages}
+	\end{figure}
+	
+\end{frame}
+
 	
 	\begin{frame}{Figure credits}
 		Some figures come from James et al. An introduction to statistical learning, and G. Rojas, Neural Networks, both from Springer Verlag. 
